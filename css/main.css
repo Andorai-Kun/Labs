@@ -1,0 +1,64 @@
+h1 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+span{
+  font-size: x-large;
+}
+
+.dflex{
+  display: flex;
+}
+
+.a{
+  margin-left: 5%;
+  width: 30%;
+  border: 0px solid black;
+}
+
+.a_a{
+  margin-top: 1em;
+}
+
+.a_b{
+  margin-top: 1em;
+  margin-left: 30%;
+}
+
+.b{
+  width: 30%;
+  border: 0px solid black;
+}
+
+.b_a{
+  margin-top: 1em;
+}
+
+.b_b{
+  margin-top: 1em;
+  margin-left: 30%;
+}
+
+.c{
+  width: 30%;
+  margin-right: 5%;
+  border: 0px solid black;
+}
+
+.c_a{
+  margin-top: 1em;
+}
+
+.c_b{
+  margin-top: 1em;
+  margin-left: 30%;
+}
+
+.d{
+  margin-top: 5em;
+}
