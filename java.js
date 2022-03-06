@@ -207,8 +207,11 @@ function F7(){
     document.getElementById('sel2').checked = true;
     document.getElementById('sel3').checked = true;
     C1.src = "America/Argentina.png";
+    C1.value = 1;
     C2.src = "Europa/Franța.png";
+    C2.value = 1;
     C3.src = "Asia/China.png";
+    C3.value = 1;
     B1.style.borderColor = "black";
     B2.style.borderColor = "black";
     B3.style.borderColor = "black";
