@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Add Info</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body bgcolor=#dddfff>
+
+    <section>
+        <input id="i1" class="i" placeholder="FirstName">
+        <input id="i2" class="i" placeholder="LastName">
+        <input id="i3" class="i" placeholder="Email">
+        <input id="i4" class="i" placeholder="Phone (+373 ...)">
+        <input id="i5" class="i" placeholder="Physical Address">
+        <select id="i6" class="selP">
+            <option value="Profession" selected>Profession</option>
+        </select>
+        <p id="error4" class="error">Please fill in and select all above</p>
+    </section>
+
+<!--                    Links                   -->
+    <section>
+        <button id="b1" class="SL">+</button>
+        <span id="add" class="SL">Add social links</span>
+        <p id="error2" class="error">Please complete all social links or remove all unnecessary</p>
+    </section>
+    <ul id="lista1">
+    </ul>
+
+<!--                    Links                   -->
+<!--                    Educations                  -->
+
+    <section>
+        <button id="b1" class="E">+</button>
+        <span id="add" class="E">Add Educations</span>
+    </section>
+
+    <fieldset id="Educ">
+        <legend>Education form</legend>
+        <div class="div1">
+            <div class="div2">
+                <div>
+                    <input id="ET" class="ET" placeholder="Education title" name="ET">
+                </div>
+                <div class="div2">
+                    <select id="selE" class="selE">
+                        <option value="Education type">Education type</option>
+                    </select>
+                </div>
+            </div>
+            <div class="div3">
+                <span class="sp">Graduated</span>
+            </div>
+            <div class="div4">
+                <div>
+                    <input type="date" id="data1" class="data" name="data1">
+                </div>
+            </div>
+        </div>
+        <button id="b3" class="b1">Add my Education</button>
+        <button id="b4" class="b2">Hide form</button>
+        <p id="error1" class="error">Please enter and select all data</p>
+    </fieldset>
+    <fieldset id="listaE">
+        <legend>My Educations</legend>
+    </fieldset>
+
+<!--                    Educations                  -->
+<!--                    Jobs                    -->
+
+    <section>
+        <button id="b1" class="J">+</button>
+        <span id="add" class="J">Add Jobs</span>
+    </section>
+
+    <fieldset id="Job">
+        <legend>Job form</legend>
+        <div class="div5">
+            <div class="div6">
+                <div>
+                    <select id="selJN" class="selJ">
+                        <option value="Job name">Job name</option>
+                    </select>
+                </div>
+                <div>
+                    <select id="selC" class="selJ">
+                        <option value="City">City</option>
+                        <option value="Chisinau">Chișinău</option>
+                        <option value="Balti">Bălți</option>
+                        <option value="Orhei">Orhei</option>
+                        <option value="Tiraspol">Tiraspol</option>
+                        <option value="Soroca">Soroca</option>
+                        <option value="Nisporeni">Nisporeni</option>
+                        <option value="Bender">Bender</option>
+                    </select>
+                </div>
+                <div>
+                    <select id="selCN" class="selJ">
+                        <option value="Company name">Company name</option>
+                    </select>
+                </div>
+            </div>
+            <div class="div6">
+                <div class="div2">
+                    <span class="sp">Start date</span>
+                    <input type="date" id="data2" class="data" name="data2">
+                </div>
+                <div id="divdate" class="div2">
+                    <span class="sp">End date</span>
+                    <input type="date" id="data3" class="data" name="data3">
+                </div>
+                <div class="div2">
+                    <input type="checkbox" id="cb" class="cb">
+                    <span class="sp">In present</span>
+                </div>
+            </div>
+        </div>
+    <button id="b5" class="b1">Add my Job</button>
+    <button id="b6" class="b2">Hide form</button>
+    <p id="error3" class="error">Please enter and select all data</p>
+    </fieldset>
+    <fieldset id="listaJ">
+        <legend>My Jobs</legend>
+    </fieldset>
+    
+<!--                    Jobs                    -->
+
+    <button id="b2">Submit</button>
+    <script src="js/action1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</body>
+</html>
